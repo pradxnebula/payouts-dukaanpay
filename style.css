@@ -7,13 +7,13 @@
   font-style: normal;
 }
 @font-face {
-    font-family: "galano-grotesque-bold"; /* Give your font a unique name */
-    src: url(/galano-grotesque-alt-cufonfonts/GalanoGrotesqueAltMedium.otf)
-      format("opentype"); /* Path to your OTF file */
-    /* Additional font properties (optional) */
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "galano-grotesque-bold"; /* Give your font a unique name */
+  src: url(/galano-grotesque-alt-cufonfonts/GalanoGrotesqueAltMedium.otf)
+    format("opentype"); /* Path to your OTF file */
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 body {
@@ -21,6 +21,8 @@ body {
   margin: 0px;
   color: #fff;
   font-family: "galano-grotesque";
+  cursor: pointer;
+  background-color: #FAFAFA;
 }
 
 :root {
@@ -61,57 +63,137 @@ body {
   height: 42px;
 }
 
-
 .nav-navigate {
-    margin-top: 2rem;
-    margin-left: -2px;
-    width: 208px;
-    height: 500px;
+  margin-top: 2rem;
+  margin-left: -2px;
+  width: 208px;
+  height: 500px;
 }
 #nav-pill {
-    display: flex;
-    height: 20px;
-    width: 176px;
-    padding: 8px 16px;
-    border-radius: 4px;
-    margin-bottom: 4.5px;
+  display: flex;
+  height: 20px;
+  width: 176px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 4.5px;
 }
 
 #nav-pill:hover {
-    background-color: #353C53;
+  background-color: #353c53;
 }
 
 #nav-tex {
-    margin-left: 12px;
-    font-size: 14px;
+  margin-left: 12px;
+  font-size: 14px;
 }
 
 #nav-icon {
-    height: 20px;
+  height: 20px;
 }
 
 .credit-box {
-    display: flex;
-    background-color:#ffffff0d;
-    width: 192px;
-    height: 51px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 4px;
+  display: flex;
+  background-color: #ffffff0d;
+  width: 192px;
+  height: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
 }
 
 #credit-icon {
-    margin: 6px;
-    padding: 6px;
-    background-color: #ffffff1c;
-    border-radius: 4px;
-    margin-left: 16px;
+  margin: 6px;
+  padding: 6px;
+  background-color: #ffffff1c;
+  border-radius: 4px;
+  margin-left: 16px;
 }
 #credit-cont {
-    line-height: 3.5px;
-    margin-left: 6px;
+  line-height: 3.5px;
+  margin-left: 6px;
 }
 
 #bolder {
-    font-family: "galano-grotesque-bold";
+  font-family: "galano-grotesque-bold";
+}
+
+.main-frame {
+  display: flex;
+}
+
+.main-window {
+  left: 256px;
+  position: relative;
+  color: black;
+}
+#title-head {
+  font-size: 20px;
+  font-family: "galano-grotesque-bold";
+}
+
+.track-1 {
+  font-size: 16px;
+  height: 24px;
+}
+
+.track-2 {
+  display: flex;
+  height: 38px;
+  margin-top: 13px;
+}
+
+.track-3 {
+  display: flex;
+  margin-top: 23px;
+  background: #0e4f82;
+  padding: 8px 24px;
+  width: 323px;
+  height: 20px;
+  margin-left: -20px;
+  border-radius: 8px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.status-box {
+  height: 114px;
+  width: 331px;
+  background-color: #146eb4;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.status-box-ot {
+  height: 78px;
+  width: 331px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+  box-shadow: 0px 0px 6px 0px rgb(203 203 203 / 75%);
+
+}
+
+#status-amt {
+  font-size: 32px;
+}
+#order-amt {
+  margin: 12px;
+  text-decoration: underline;
+  margin-left: 6.1rem;
+  text-wrap: nowrap;
+}
+
+#right-arrow {
+  margin: 12px;
+  transform: rotate(270deg);
+  margin-left: -9px;
+}
+
+.dash-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1152px;
+  height: 154px;
 }

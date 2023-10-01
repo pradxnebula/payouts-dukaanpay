@@ -4,89 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1440px, initial-scale=1.0">
-    <title>Document</title>
+    <title>Payout Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="nav-sidebar">
-        <div class="nav-top">
-            <div class="nav-profile" id="div-flex">
-                <img id="prof-img" src="/icons/profile-img.png" alt="">
-                <div style="  line-height: 7px;
+    <div class="main-frame">
+        <div class="nav-sidebar">
+            <div class="nav-top">
+                <div class="nav-profile" id="div-flex">
+                    <img id="prof-img" src="/icons/profile-img.png" alt="">
+                    <div style="  line-height: 7px;
                 margin-top: -8.5px;
-                margin-left: 13px;
-  ">
-                    <p id="bolder" style="font-size: 15px;">Nishyan</p>
-                    <p style="    font-size: 13px;
+                margin-left: 13px;">
+                        <p id="bolder" style="font-size: 15px;">Nishyan</p>
+                        <p style="    font-size: 13px;
         font-weight: 100;
         text-decoration-line: underline;">Visit store</p>
-                </div>
-                <div style="right: 0px;
+                    </div>
+                    <div style="right: 0px;
                 position: absolute;
                 margin: -16px 11px;"><img src="/icons/Chevron Down.png" alt="" style="margin-top: 26px;"></div>
+                </div>
+
+
+
+
+                <div class="nav-navigate">
+                    <div id="nav-pill" style="background-color: #353C53;">
+                        <img id="nav-icon" src="/icons/home.png" alt="">
+                        <span id="nav-tex">Home</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/orders.png" alt="">
+                        <span id="nav-tex">Orders</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/products.png" alt="">
+                        <span id="nav-tex">Products</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/delivery.png" alt="">
+                        <span id="nav-tex">Delivery</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/marketing.png" alt="">
+                        <span id="nav-tex">Marketing</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/analytics.png" alt="">
+                        <span id="nav-tex">Analytics</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/payouts.png" alt="">
+                        <span id="nav-tex">Payouts</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/discounts.png" alt="">
+                        <span id="nav-tex">Discounts</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/audience.png" alt="">
+                        <span id="nav-tex">Audience</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/appearance.png" alt="">
+                        <span id="nav-tex">Appearance</span>
+                    </div>
+                    <div id="nav-pill">
+                        <img id="nav-icon" src="/icons/plugins.png" alt="">
+                        <span id="nav-tex">Plugins</span>
+                    </div>
+                </div>
             </div>
 
-
-
-
-            <div class="nav-navigate">
-                <div id="nav-pill" style="background-color: #353C53;">
-                    <img id="nav-icon" src="/icons/home.png" alt="">
-                    <span id="nav-tex">Home</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/orders.png" alt="">
-                    <span id="nav-tex">Orders</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/products.png" alt="">
-                    <span id="nav-tex">Products</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/delivery.png" alt="">
-                    <span id="nav-tex">Delivery</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/marketing.png" alt="">
-                    <span id="nav-tex">Marketing</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/analytics.png" alt="">
-                    <span id="nav-tex">Analytics</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/payouts.png" alt="">
-                    <span id="nav-tex">Payouts</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/discounts.png" alt="">
-                    <span id="nav-tex">Discounts</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/audience.png" alt="">
-                    <span id="nav-tex">Audience</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/appearance.png" alt="">
-                    <span id="nav-tex">Appearance</span>
-                </div>
-                <div id="nav-pill">
-                    <img id="nav-icon" src="/icons/plugins.png" alt="">
-                    <span id="nav-tex">Plugins</span>
+            <div class="credit-box">
+                <div id="credit-icon-div"><img id="credit-icon" src="/icons/wallet.png" alt=""></div>
+                <div id="credit-cont">
+                    <p style="font-size: 13px;">Available credits</p>
+                    <p id="bolder">222.10</p>
                 </div>
             </div>
         </div>
+        <div class="main-window">
+            <span id="title-head">Overview</span>
 
-        <div class="credit-box">
-            <div id="credit-icon-div"><img id="credit-icon" src="/icons/wallet.png" alt=""></div>
-            <div id="credit-cont">
-                <p style="font-size: 13px;">Available credits</p>
-                <p id="bolder">222.10</p>
+            <div class="dash-box">
+                <div class="status-box">
+                    <div class="track-1">
+                        <div>Next Payout</div>
+                    </div>
+                    <div class="track-2">
+                        <div id="status-amt">₹2,312.23</div>
+                        <div id="order-amt">23 Orders</div>
+                        <div><img id="right-arrow" src="/icons/Chevron Down.png" alt=""></div>
+                    </div>
+                    <div class="track-3">
+                        <div>Next payout date:</div>
+                        <div>Today, 04:00 PM</div>
+                    </div>
+                </div>
+                <div class="status-box-ot">
+                    <div class="track-1">
+                        <div>Amount Pending</div>
+                    </div>
+                    <div class="track-2">
+                        <div id="status-amt">₹92,312.20</div>
+                        <div id="order-amt">13 Orders</div>
+                        <div><img id="right-arrow" src="/icons/Chevron Down.png" alt="" style="filter: invert(0.7);">
+                        </div>
+                    </div>
+                </div>
+                <div class="status-box-ot">
+                    <div class="track-1">
+                        <div>Amount Processed</div>
+                    </div>
+                    <div class="track-2">
+                        <div id="status-amt">₹23,92,312.19</div>
+                    </div>
+                </div>
             </div>
+
+
+
         </div>
     </div>
-
 
 </body>
 
