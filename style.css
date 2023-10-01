@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "galano-grotesque"; /* Give your font a unique name */
+  src: url(/galano-grotesque-alt-cufonfonts/GalanoGrotesqueAltLight.otf)
+    format("opentype"); /* Path to your OTF file */
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "galano-grotesque-bold"; /* Give your font a unique name */
+    src: url(/galano-grotesque-alt-cufonfonts/GalanoGrotesqueAltMedium.otf)
+      format("opentype"); /* Path to your OTF file */
+    /* Additional font properties (optional) */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body {
+  display: block;
+  margin: 0px;
+  color: #fff;
+  font-family: "galano-grotesque";
+}
+
+:root {
+  --navbar-col: #1e2640;
+}
+
+#div-flex {
+  display: flex;
+}
+
+.nav-sidebar {
+  background-color: var(--navbar-col);
+  width: 224px;
+  height: 890px;
+  position: fixed;
+}
+.nav-top {
+  position: relative;
+  margin: 16px 10px 0px 10px;
+  width: 208px;
+  height: 692px;
+}
+
+#prof-img {
+  position: relative;
+  width: 39px;
+  height: 39px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+#nav-icon {
+  filter: brightness(10.5);
+}
+
+.nav-profile {
+  width: 192px;
+  height: 42px;
+}
+
+
+.nav-navigate {
+    margin-top: 2rem;
+    margin-left: -2px;
+    width: 208px;
+    height: 500px;
+}
+#nav-pill {
+    display: flex;
+    height: 20px;
+    width: 176px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 4.5px;
+}
+
+#nav-pill:hover {
+    background-color: #353C53;
+}
+
+#nav-tex {
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+#nav-icon {
+    height: 20px;
+}
+
+.credit-box {
+    display: flex;
+    background-color:#ffffff0d;
+    width: 192px;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+#credit-icon {
+    margin: 6px;
+    padding: 6px;
+    background-color: #ffffff1c;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+#credit-cont {
+    line-height: 3.5px;
+    margin-left: 6px;
+}
+
+#bolder {
+    font-family: "galano-grotesque-bold";
+}
